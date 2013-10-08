@@ -1,6 +1,7 @@
 body{
     background: #343539;
     background-image: url("../img/bg_map.png");
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 
@@ -34,8 +35,50 @@ button[type="submit"].btn-default{
 }
 
 #controls{
-    background: #232428;
-    margin-top: 52px;
+    border-top: 1px solid #222;
+    background: #343539;
+    margin-top: 54px;
     width: 300px;
     float: right;
+    color: #fff;
+}
+
+#controls h3{
+    margin: 0;
+    background: #232428;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+    font: 20px 'Roboto';
+    font-weight: 300;
+}
+
+#controls h3 span.glyphicon{
+    font-size: 15px;
+}
+
+#controls .form-holder{
+    margin: 10px;
+}
+
+#controls .form-holder > label{
+    color: #aaa;
+    text-shadow: 0 1px #000;
+}
+
+
+/* General Bootstrap Stuff */
+.btn-group label{
+    background: #F18352;
+    border-color: #cd5e00;
+}
+
+.btn-group label:hover{
+    background: #cd5e00;
+    border-color: #cd5e00;
+}
+
+.btn-group label.active{
+    background: #cd5e00;
+    border-color: #cd5e00;
+    box-shadow: rgba(0, 0, 0, 0.121569) 0px 3px 5px 0px inset;
 }
