@@ -1,11 +1,12 @@
 body{
     background: #343539;
+    background-image: url("../img/bg_map.png");
 }
 
 
 .navbar-inverse{
     background: #232428;
-    border-top: 1px solid #F18352;
+    border-top: 2px solid #F18352;
     border-bottom: 1px solid #444;
 }
 
@@ -16,13 +17,17 @@ body{
     padding: 5px 20px;
 }
 
+.navbar-inverse .navbar-nav>.active>a{
+    background: #111;
+}
+
 input[type="text"].form-control{
     background: #343539;
     border: none;
 }
 
 button[type="submit"].btn-default{
-    background: #000;
+    background: #111;
     border: none;
     color: #fff;
     padding: 7.5px 15px;
