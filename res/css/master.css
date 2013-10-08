@@ -1,0 +1,17 @@
+body{
+    background: #343539;
+}
+
+
+.navbar-inverse{
+    background: #232428;
+    border-top: 1px solid #F18352;
+    border-bottom: 1px solid #444;
+}
+
+#controls{
+    background: #232428;
+    margin-top: 52px;
+    width: 300px;
+    float: right;
+}
