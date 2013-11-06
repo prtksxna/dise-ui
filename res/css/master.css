@@ -35,7 +35,6 @@ button[type="submit"].btn-default{
 }
 
 #controls{
-    border-top: 1px solid #222;
     background: #343539;
     margin-top: 54px;
     width: 300px;
@@ -106,6 +105,58 @@ button[type="submit"].btn-default{
    text-shadow: 0 1px 3px #fff;
     border: 1px solid #111;
 }
+
+
+/* Preset Links */
+#presets ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+#presets ul li{
+    color: #fff;
+    background: #F18352;
+    border-bottom: 1px solid #cd5e00;
+    display: block;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#presets ul li.active{
+    background: #cd5e00;
+    box-shadow: rgba(0, 0, 0, 0.121569) 0px 3px 5px 0px inset;
+}
+
+#presets ul li.active p{
+    height: 20px;
+}
+
+
+#presets ul li a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#presets ul li a:hover{
+    text-decoration: none;
+}
+
+#presets ul li p{
+    transition: all 1s ease;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#presets ul li:hover p{
+    height: 20px;
+}
+
 
 /* General Bootstrap Stuff */
 .btn-group label{

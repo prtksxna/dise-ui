@@ -12,6 +12,8 @@
     <script type="text/javascript" src="res/lib/jquery.js"></script>
     <script type="text/javascript" src="res/lib/jquery-ui.js"></script>
     <script type="text/javascript" src="res/lib/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="res/js/brain.js"></script>
   </head>
 
   <body>
@@ -51,6 +53,31 @@
 
 
     <div id="controls">
+      <div id="presets">
+	<ul>
+	  <li>
+	    <a href="#">Preset A</a>
+	    <p>lorem impus dolor sit amet</p>
+	  </li>
+	  <li>
+	    <a href="#">Preset A</a>
+	    <p>lorem impus dolor sit amet</p>
+	  </li>
+	  <li class="active">
+	    <a href="#">Preset A</a>
+	    <p>lorem impus dolor sit amet</p>
+	  </li>
+	  <li>
+	    <a href="#">Preset A</a>
+	    <p>lorem impus dolor sit amet</p>
+	  </li>
+	  <li>
+	    <a href="#">Preset A</a>
+	    <p>lorem impus dolor sit amet</p>
+	  </li>
+	</ul>
+      </div>
+
       <h3><span class="glyphicon glyphicon-adjust"></span> Basic Controls</h3>
 
       <div class="form-holder">
@@ -136,16 +163,6 @@
 	  <td><span class="glyphicon glyphicon-gift filter-icon" title="Gift"></span></td>
 	</tr>
       </table>
-
-      <script>
-	$(document).ready(function(){
-	$(".filter-icon").tooltip();
-	$("table.filter-icon-set td").click(function(){
-	$(this).toggleClass("selected");
-	});
-	});
-      </script>
-
 
     </div>
 
