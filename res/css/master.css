@@ -119,6 +119,7 @@ button[type="submit"].btn-default{
     color: #fff;
     background: #F18352;
     border-bottom: 1px solid #cd5e00;
+    border-left: 1px solid #cd5e00;
     display: block;
     padding: 10px;
     font-weight: 100;
@@ -139,6 +140,17 @@ button[type="submit"].btn-default{
     color: #fff;
     font-weight: 500;
     font-size: 14px;
+}
+
+#presets ul li a.preset-edit{
+    transition: all 1s ease;
+    opacity: 0;
+    float: right;
+}
+
+#presets ul li.active a.preset-edit{
+    opacity: 1;
+    float: right;
 }
 
 #presets ul li a:hover{
