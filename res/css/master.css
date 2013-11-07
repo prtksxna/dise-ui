@@ -40,6 +40,7 @@ button[type="submit"].btn-default{
     width: 300px;
     float: right;
     color: #fff;
+    box-shadow: 0 0 20px #000;
 }
 
 #controls h3{
@@ -116,6 +117,7 @@ button[type="submit"].btn-default{
 }
 
 #presets ul li{
+    cursor: pointer;
     color: #fff;
     background: #F18352;
     border-bottom: 1px solid #cd5e00;
