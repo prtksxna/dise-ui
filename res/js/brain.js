@@ -8,4 +8,10 @@ $(function(){
 	    $("#presets li").removeClass("active");
 	    $(this).addClass("active");
     });
+
+    $(".reset_preset").tooltip();
+
+    $(".reset_preset").click(function(e){
+        if(!confirm("Are you sure? This action cannot be undone!")) return false;
+    });
 });
