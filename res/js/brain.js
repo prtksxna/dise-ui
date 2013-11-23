@@ -14,4 +14,11 @@ $(function(){
     $(".reset_preset").click(function(e){
         if(!confirm("Are you sure? This action cannot be undone!")) return false;
     });
+
+
+    $("#control_toggle").click(function(e){
+        $("#controls").toggleClass("hidden_controls");
+        $("#control_toggle").toggleClass("flip");
+    });
+
 });

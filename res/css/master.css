@@ -35,12 +35,19 @@ button[type="submit"].btn-default{
 }
 
 #controls{
+    transition: all 1s ease;
     background: #343539;
     margin-top: 54px;
     width: 300px;
     float: right;
     color: #fff;
     box-shadow: 0 0 20px #000;
+}
+
+.hidden_controls{
+    transition: all 1s ease;
+    margin-left: 300px;
+    margin-right: -300px;
 }
 
 #controls h3{
@@ -65,6 +72,22 @@ button[type="submit"].btn-default{
     text-shadow: 0 1px #000;
 }
 
+#control_toggle{
+    transition: all 1s ease;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+
+#control_toggle.flip{
+    transition: all 1s ease;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+
+}
 
 /* Filter ckehboxes */
 #facilities-checkboxes{
