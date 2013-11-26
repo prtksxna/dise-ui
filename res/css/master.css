@@ -37,6 +37,7 @@ button[type="submit"].btn-default{
 
 #controls{
     transition: all 1s ease;
+    z-index: 10000;
     background: #343539;
     margin-top: 53px;
     width: 300px;
@@ -340,16 +341,42 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 /* Filter Editor */
 #filter-editor{
-    background: #222;
+    transition: all 1s ease;
+    z-index: 999;
+    background: #343539;
     color: #fff;
     position: absolute;
     right: 300px;
-    top: 53px;
-    width: 50%;
+    top: -300px;
+    width: 700px;
+    border-right: 1px solid #222;
+    box-shadow: -5px 0 10px #222;
+    padding-bottom: 10px;
 }
 
-#filter-editor .lined-cols div{ border-left: 1px solid #fff;}
+#filter-editor.activate{
+    transition: all 1s ease;
+    top: 53px;
+}
+
+#filter-editor .lined-cols div{ border-left: 1px solid #666;}
 #filter-editor .lined-cols div:first-child{ border-left: none;}
 
+#filter-editor ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 10px;
+}
 
+#filter-editor ul li{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+#filter-editor a{
+    color: #cd5e00;
+    font-size: 12px;
+}
 /* Filter Editor */
