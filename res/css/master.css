@@ -275,15 +275,22 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 /* No of matches */
 .no-of-matches{
+    transition: all 1s ease;
     display: inline-block;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     margin-left: 40px;
     background: #cd5e00;
-    font-size:13px;
+    font-size: 11px;
     color: #fff;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.no-of-matches:hover{
+    transition: all 1s ease;
+    width: 120px;
 }
