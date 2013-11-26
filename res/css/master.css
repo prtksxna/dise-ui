@@ -9,6 +9,7 @@ body{
     background: #222;
     border-top: 2px solid #F18352;
     border-bottom: 1px solid #444;
+    z-index: 10001;
 }
 
 .navbar-inverse a.navbar-brand{
@@ -37,7 +38,7 @@ button[type="submit"].btn-default{
 #controls{
     transition: all 1s ease;
     background: #343539;
-    margin-top: 54px;
+    margin-top: 53px;
     width: 300px;
     float: right;
     color: #fff;
@@ -48,19 +49,6 @@ button[type="submit"].btn-default{
     transition: all 1s ease;
     margin-left: 300px;
     margin-right: -300px;
-}
-
-#controls h3{
-    margin: 0;
-    background: #232428;
-    padding: 10px;
-    border-bottom: 1px solid #222;
-    font: 20px 'Roboto';
-    font-weight: 300;
-}
-
-#controls h3 span.glyphicon{
-    font-size: 15px;
 }
 
 #controls .form-holder{
@@ -88,48 +76,6 @@ button[type="submit"].btn-default{
     -ms-transform: rotate(180deg);
 
 }
-
-/* Filter ckehboxes */
-#facilities-checkboxes{
-    padding: 10px 15px;
-}
-
-#facilities-checkboxes input[type="checkbox"]{
-    margin-right: 3px;
-}
-
-#facilities-checkboxes label{
-    color: #dedede;
-    font-size: 16px;
-    font-weight: 400;
-    text-shadow: 0 1px 0 #000;
-}
-
-
-/* Filter icons table */
-.filter-icon-set{
-    width: 100%;
-}
-
-.filter-icon-set td{
-    transition: all 0.6s ease;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 25px;
-    text-shadow: 0 1px 3px #000;
-    border: 1px solid #232428;
-    line-height: 50px;
-}
-
-.filter-icon-set td.selected{
-    transition: all 0.6s ease;
-    background: #dedede;
-    color: #333;
-    text-shadow: 0 1px 3px #fff;
-    border: 1px solid #111;
-}
-
 
 /* Preset Links */
 #presets ul{
@@ -293,4 +239,88 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 .no-of-matches:hover{
     transition: all 1s ease;
     width: 120px;
+}
+
+
+/* Preset Editor */
+#preset-editor{
+    transition: all 1s ease;
+    position: absolute;
+    background: #222;
+    color: #fff;
+    height: 700px;
+    width: 100%;
+    z-index: 10000;
+    top: -650px;
+    left: 0;
+}
+
+#preset-editor.activate{
+    transition: all 1s ease;
+    top: 53px;
+}
+
+#preset-editor div.action-row{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #cd5e00;
+}
+
+#preset-editor .btn{
+    background: #cd5e00;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#preset-editor a{
+    color: #cd5e00;
+    margin-left: 10px;
+}
+
+#preset-editor h3{
+    margin: 0;
+    background: #232428;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+    font: 16px 'Roboto';
+    font-weight: 300;
+}
+
+#preset-editor h3 span.glyphicon{
+    font-size: 15px;
+}
+
+.check-list{
+    padding: 10px 15px;
+}
+
+.check-list input[type="checkbox"]{
+    margin-right: 3px;
+}
+
+.check-list label{
+    color: #dedede;
+    font-size: 12px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #000;
+}
+
+.ui-slider-horizontal{
+    border: none;
+    background: #666;
+    height:5px;
+    border-radius: 0;
+}
+
+.ui-slider-range{
+    background: #cd5e00;
+}
+
+.ui-slider-handle{
+    height: 20px !important;
+    width: 20px !important;
+    background: #fff !important;
+    border: 3px solid #cd5e00 !important;
+    border-radius: 10px !important;
+    top: -8px !important;
 }

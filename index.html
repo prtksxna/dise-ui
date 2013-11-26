@@ -18,6 +18,97 @@
 
   <body>
 
+    <!-- Preset Editor -->
+    <div id="preset-editor">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Preset Editor</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h3><span class="glyphicon glyphicon-briefcase"></span> Facilities (Checkboxes)</h3>
+            <div class="check-list">
+	          <label><input type="checkbox"> Classrooms need repair</label>
+	          <label><input type="checkbox"> Doesn't have a toilet</label>
+	          <label><input type="checkbox"> Doesn't have a toilet for Girls</label>
+	          <label><input type="checkbox"> Doesn't have electricity</label>
+	          <label><input type="checkbox"> Doesn't have a secure wall</label>
+	          <label><input type="checkbox"> Doesn't have a mid-day meal</label>
+	          <label><input type="checkbox"> Doesn't have a library</label>
+	          <label><input type="checkbox"> Doesn't have a ramp</label>
+	          <label><input type="checkbox"> Doesn't have a blackboard</label>
+	          <label><input type="checkbox"> Doesn't have a playground</label>
+	          <label><input type="checkbox"> Doesn't have medical check-up</label>
+	          <label><input type="checkbox"> Doesn't have drinking water</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3><span class="glyphicon glyphicon-transfer"></span> RTE Compliance</h3>
+            <div class="check-list">
+	          <label><input type="checkbox"> Classrooms need repair</label>
+	          <label><input type="checkbox"> Doesn't have a toilet</label>
+	          <label><input type="checkbox"> Doesn't have a toilet for Girls</label>
+	          <label><input type="checkbox"> Doesn't have electricity</label>
+	          <label><input type="checkbox"> Doesn't have a secure wall</label>
+	          <label><input type="checkbox"> Doesn't have a mid-day meal</label>
+	          <label><input type="checkbox"> Doesn't have a library</label>
+	          <label><input type="checkbox"> Doesn't have a ramp</label>
+	          <label><input type="checkbox"> Doesn't have a blackboard</label>
+	          <label><input type="checkbox"> Doesn't have a playground</label>
+	          <label><input type="checkbox"> Doesn't have medical check-up</label>
+	          <label><input type="checkbox"> Doesn't have drinking water</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3><span class="glyphicon glyphicon-user"></span> Teachers</h3>
+            <div class="check-list">
+	          <label><input type="checkbox"> Classrooms need repair</label>
+	          <label><input type="checkbox"> Doesn't have a toilet</label>
+	          <label><input type="checkbox"> Doesn't have a toilet for Girls</label>
+	          <label><input type="checkbox"> Doesn't have electricity</label>
+	          <label><input type="checkbox"> Doesn't have a secure wall</label>
+	          <label><input type="checkbox"> Doesn't have a mid-day meal</label>
+	          <label><input type="checkbox"> Doesn't have a library</label>
+	          <label><input type="checkbox"> Doesn't have a ramp</label>
+	          <label><input type="checkbox"> Doesn't have a blackboard</label>
+	          <label><input type="checkbox"> Doesn't have a playground</label>
+	          <label><input type="checkbox"> Doesn't have medical check-up</label>
+	          <label><input type="checkbox"> Doesn't have drinking water</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3><span class="glyphicon glyphicon-sound-stereo"></span> Range Indicators</h3>
+
+            <label>Number of Girls</label>
+            <div id="no-of-girls-range" class="range-slider"></div>
+            <br>
+            <label>Number of Birls</label>
+            <div id="no-of-girls-range" class="range-slider"></div>
+            <br>
+            <label>Number of Teachers</label>
+            <div id="no-of-girls-range" class="range-slider"></div>
+            <br>
+            <label>Number of Classrooms</label>
+            <div id="no-of-girls-range" class="range-slider"></div>
+
+          </div>
+        </div>
+
+        <div class="row action-row">
+          <div class="col-md-push-9 col-md-3">
+            <button type="button" class="btn">Save</button>
+            or
+            <a href="#">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preset Editor -->
+
+
+
     <!-- Top Fixed Nav -->
     <nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -144,54 +235,6 @@
 	      </li>
 	    </ul>
       </div>
-
-      <br>
-
-      <h3><span class="glyphicon glyphicon-briefcase"></span> Facilities (Checkboxes)</h3>
-      <div id="facilities-checkboxes">
-	    <label><input type="checkbox"> Classrooms need repair</label>
-	    <label><input type="checkbox"> Doesn't have a toilet</label>
-	    <label><input type="checkbox"> Doesn't have a toilet for Girls</label>
-	    <label><input type="checkbox"> Doesn't have electricity</label>
-	    <label><input type="checkbox"> Doesn't have a secure wall</label>
-	    <label><input type="checkbox"> Doesn't have a mid-day meal</label>
-	    <label><input type="checkbox"> Doesn't have a library</label>
-	    <label><input type="checkbox"> Doesn't have a ramp</label>
-	    <label><input type="checkbox"> Doesn't have a blackboard</label>
-	    <label><input type="checkbox"> Doesn't have a playground</label>
-	    <label><input type="checkbox"> Doesn't have medical check-up</label>
-	    <label><input type="checkbox"> Doesn't have drinking water</label>
-      </div>
-
-      <br>
-
-      <h3><span class="glyphicon glyphicon-briefcase"></span> Facilities (Icon Grid)</h3>
-      <table class="filter-icon-set">
-	    <tr>
-	      <td><span class="glyphicon glyphicon-barcode filter-icon" title="Barcode"></span></td>
-	      <td><span class="glyphicon glyphicon-bell filter-icon" title="Bell"></span></td>
-	      <td><span class="glyphicon glyphicon-book filter-icon" title="Book"></span></td>
-	      <td><span class="glyphicon glyphicon-bullhorn filter-icon" title="Bull Horn"></span></td>
-	      <td><span class="glyphicon glyphicon-calendar filter-icon" title="Calendar"></span></td>
-	      <td><span class="glyphicon glyphicon-camera filter-icon" title="Camera"></span></td>
-	    </tr>
-	    <tr>
-	      <td><span class="glyphicon glyphicon-certificate filter-icon" title="Certificate"></span></td>
-	      <td><span class="glyphicon glyphicon-cloud filter-icon" title="Cloud"></span></td>
-	      <td><span class="glyphicon glyphicon-cog filter-icon" title="Cog"></span></td>
-	      <td><span class="glyphicon glyphicon-comment filter-icon" title="Comment"></span></td>
-	      <td><span class="glyphicon glyphicon-cutlery filter-icon" title="Cutlery"></span></td>
-	      <td><span class="glyphicon glyphicon-earphone filter-icon" title="Phone"></span></td>
-	    </tr>
-	    <tr>
-	      <td><span class="glyphicon glyphicon-envelope filter-icon" title="Envelope"></span></td>
-	      <td><span class="glyphicon glyphicon-eye-open filter-icon" title="Eye"></span></td>
-	      <td><span class="glyphicon glyphicon-fire filter-icon" title="Fire"></span></td>
-	      <td><span class="glyphicon glyphicon-globe filter-icon" title="Globe"></span></td>
-	      <td><span class="glyphicon glyphicon-heart filter-icon" title="Heart"></span></td>
-	      <td><span class="glyphicon glyphicon-gift filter-icon" title="Gift"></span></td>
-	    </tr>
-      </table>
 
     </div>
 
