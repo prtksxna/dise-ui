@@ -21,4 +21,10 @@ $(function(){
         $("#control_toggle").toggleClass("flip");
     });
 
+
+    // Breadcrumbs coloring and z-index
+    var class_array = ["a", "b", "c", "d", "e"]
+    $("ol.top-breadcrumbs li").each(function(i, e){
+        $(e).addClass(class_array[i]);
+    });
 });

@@ -6,7 +6,7 @@ body{
 
 
 .navbar-inverse{
-    background: #232428;
+    background: #222;
     border-top: 2px solid #F18352;
     border-bottom: 1px solid #444;
 }
@@ -126,7 +126,7 @@ button[type="submit"].btn-default{
     transition: all 0.6s ease;
     background: #dedede;
     color: #333;
-   text-shadow: 0 1px 3px #fff;
+    text-shadow: 0 1px 3px #fff;
     border: 1px solid #111;
 }
 
@@ -211,3 +211,62 @@ button[type="submit"].btn-default{
     border-color: #cd5e00;
     box-shadow: rgba(0, 0, 0, 0.121569) 0px 3px 5px 0px inset;
 }
+
+/* Top Breadcrumbs */
+ol.top-breadcrumbs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol.top-breadcrumbs li{
+    display: inline-block;
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    line-height: 25px;
+    position: relative;
+    float: left;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+ol.top-breadcrumbs li a{
+    line-height: 50px;
+    color: #f18352;
+}
+
+ol.top-breadcrumbs li:after{
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-left-color: #222;
+    border-width: 25px;
+    margin-top: -25px;
+}
+
+ol.top-breadcrumbs li:first-child{
+    padding-left: 0;
+}
+
+ol.top-breadcrumbs li.a{background: #222; z-index: 20;}
+ol.top-breadcrumbs li.a:after{border-left-color: #222;}
+
+ol.top-breadcrumbs li.b{background: #333; z-index: 19;}
+ol.top-breadcrumbs li.b:after{border-left-color: #333;}
+
+ol.top-breadcrumbs li.c{background: #444; z-index: 18;}
+ol.top-breadcrumbs li.c:after{border-left-color: #444;}
+
+ol.top-breadcrumbs li.d{background: #555; z-index: 17;}
+ol.top-breadcrumbs li.d:after{border-left-color: #555;}
+
+ol.top-breadcrumbs li.e{background: #666; z-index: 16;}
+ol.top-breadcrumbs li.e:after{border-left-color: #666;}
