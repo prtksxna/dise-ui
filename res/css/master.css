@@ -336,3 +336,20 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     font-weight: 100;
     font-size: 22px;
 }
+
+
+/* Filter Editor */
+#filter-editor{
+    background: #222;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 53px;
+    width: 50%;
+}
+
+#filter-editor .lined-cols div{ border-left: 1px solid #fff;}
+#filter-editor .lined-cols div:first-child{ border-left: none;}
+
+
+/* Filter Editor */
