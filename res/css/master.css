@@ -270,3 +270,20 @@ ol.top-breadcrumbs li.d:after{border-left-color: #555;}
 
 ol.top-breadcrumbs li.e{background: #666; z-index: 16;}
 ol.top-breadcrumbs li.e:after{border-left-color: #666;}
+
+
+
+/* No of matches */
+.no-of-matches{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 40px;
+    background: #cd5e00;
+    font-size:13px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
