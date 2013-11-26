@@ -19,6 +19,10 @@ $(function(){
         $("#preset-editor").toggleClass("activate");
     });
 
+    $(".action-row button, .action-row a").click(function(e){
+        $("#preset-editor").toggleClass("activate");
+    });
+
     $("#control_toggle").click(function(e){
         $("#controls").toggleClass("hidden_controls");
         $("#control_toggle").toggleClass("flip");
