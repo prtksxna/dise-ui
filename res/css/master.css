@@ -325,3 +325,14 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     border-radius: 10px !important;
     top: -8px !important;
 }
+
+#preset-editor label.range{
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#preset-editor label.range > strong{
+    color: #cd5e00;
+    font-weight: 100;
+    font-size: 22px;
+}
