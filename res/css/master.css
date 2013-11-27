@@ -24,7 +24,7 @@ body{
 }
 
 input[type="text"].form-control{
-    background: #343539;
+    background: #fff;
     border: none;
 }
 
@@ -381,3 +381,28 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     font-size: 12px;
 }
 /* Filter Editor */
+
+
+/* Super search box */
+#super-search-container{
+    padding: 10px;
+    background: #222;
+    border-bottom: 1px solid #000;
+}
+
+#super-search-container input{
+    width: 230px;
+    float: left;
+    margin-right: 10px;
+}
+
+#super-search-container button{
+    background: #f18352;
+    border: 1px solid #cd5e00;
+    color: #fff;
+    outline: none;
+}
+
+#super-search-container button:hover{
+    background: #cd5e00;
+}

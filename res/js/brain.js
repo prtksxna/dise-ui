@@ -42,4 +42,9 @@ $(function(){
         max: 30,
         values: [10,20]
     });
+
+    // Filter
+    $("#super-search-container button").click(function(){
+        $("#filter-editor").toggleClass("activate");
+    });
 });
