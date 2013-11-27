@@ -222,6 +222,7 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 /* No of matches */
 .no-of-matches{
+    cursor: pointer;
     transition: all 1s ease;
     display: inline-block;
     text-align: center;
