@@ -47,4 +47,32 @@ $(function(){
     $("#super-search-container button").click(function(){
         $("#filter-editor").toggleClass("activate");
     });
+
+    $("#filter-select").select2({
+        data:
+        [
+            {
+                text: "District",
+                children: [
+                    {
+                        id: "d1",
+                        text: "Bellary"
+                    },
+                    {
+                        id: "d2",
+                        text: "Koppal"
+                    }
+                ]
+            },
+            {
+                text: "Taluk",
+                children: [
+                    {
+                        id: "t1",
+                        text: "Hospet"
+                    }
+                ]
+            }
+        ]
+    });
 });
