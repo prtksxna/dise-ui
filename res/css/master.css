@@ -390,7 +390,7 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     border-bottom: 1px solid #000;
 }
 
-#super-search-container input{
+#super-search-container div.select2-container{
     width: 230px;
     float: left;
     margin-right: 10px;

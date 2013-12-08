@@ -49,6 +49,7 @@ $(function(){
     });
 
     $("#filter-select").select2({
+        dropdownCssClass: "bigdrop",
         data:
         [
             {
