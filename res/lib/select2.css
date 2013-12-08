@@ -136,7 +136,6 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     border: 1px solid #aaa;
     border-top: 0;
 
-    border-radius: 0 0 4px 4px;
 
     -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
             box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
@@ -154,12 +153,12 @@ Version: @@ver@@ Timestamp: @@timestamp@@
 }
 
 .select2-drop-active {
-    border: 1px solid #5897fb;
+    border: 1px solid #F18352;
     border-top: none;
 }
 
 .select2-drop.select2-drop-above.select2-drop-active {
-    border-top: 1px solid #5897fb;
+    border-top: 1px solid #F18352;
 }
 
 .select2-drop-auto-width {
@@ -251,7 +250,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
 
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-    border: 1px solid #5897fb;
+    border: 1px solid #F18352;
     outline: none;
 
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
@@ -344,7 +343,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
 }
 
 .select2-results .select2-highlighted {
-    background: #3875d7;
+    background: #F18352;
     color: #fff;
 }
 
