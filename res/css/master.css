@@ -250,7 +250,8 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     position: absolute;
     background: #222;
     color: #fff;
-    height: 500px;
+    height: 560px;
+    overflow: scroll;
     border-bottom: 10px solid #000;
     width: 100%;
     z-index: 10000;
@@ -282,11 +283,13 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 #preset-editor h3{
     margin: 0;
-    background: #232428;
+
     padding: 10px;
     border-bottom: 1px solid #222;
-    font: 16px 'Roboto';
+    font: 22px 'Roboto';
     font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
 
 #preset-editor h3 span.glyphicon{
