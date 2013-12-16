@@ -71,10 +71,11 @@ button[type="submit"].btn-default{
 
 #control_toggle.flip{
     transition: all 1s ease;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
+
+    -webkit-transform: translateY(3px) rotate(180deg);
+    -moz-transform: translateY(3px) rotate(180deg);
+    -o-transform: translateY(3px) rotate(180deg);
+    -ms-transform: translateY(3px) rotate(180deg);
 
 }
 
