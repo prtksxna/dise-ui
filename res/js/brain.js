@@ -26,6 +26,9 @@ $(function(){
     $("#control_toggle").click(function(e){
         $("#controls").toggleClass("hidden_controls");
         $("#control_toggle").toggleClass("flip");
+        var t = $("#control_toggle").parent().find("span.text");
+        var t_html = (t.html() === "Hide") ? "Show" : "Hide";
+        t.html(t_html);
     });
 
 
