@@ -389,13 +389,14 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 /* Super search box */
 #super-search-container{
+    height: 53px;
     padding: 10px;
     background: #222;
     border-bottom: 1px solid #000;
 }
 
 #super-search-container div.select2-container{
-    width: 230px;
+    width: 100%;
     float: left;
     margin-right: 10px;
 }
