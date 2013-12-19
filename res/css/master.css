@@ -1,9 +1,20 @@
 body{
     background: #343539;
-    background-image: url("../img/bg_map.png");
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
+#map-holder{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../img/bg_map.png");
+}
 
 .navbar-inverse{
     background: #222;
@@ -38,10 +49,11 @@ button[type="submit"].btn-default{
 #controls{
     transition: all 1s ease;
     z-index: 10000;
+    position: absolute;
     background: #343539;
     margin-top: 53px;
     width: 300px;
-    float: right;
+    right: 0;
     color: #fff;
     box-shadow: 0 0 20px #000;
 }
