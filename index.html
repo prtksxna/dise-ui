@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="res/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="res/lib/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="res/lib/select2.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
     <link rel="stylesheet" type="text/css" href="res/css/master.css">
 
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
@@ -14,6 +15,7 @@
     <script type="text/javascript" src="res/lib/jquery-ui.js"></script>
     <script type="text/javascript" src="res/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/lib/select2.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
     <script type="text/javascript" src="res/js/brain.js"></script>
   </head>
 
@@ -295,5 +297,12 @@
       </div>
 
     </div>
+    <script>
+    var map = L.map('map-holder').setView([12.9711, 78.0798], 9);
+    L.tileLayer('http://{s}.tile.cloudmade.com/3c4ab920016a46d8ba10c88227539774/997/256/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+        maxZoom: 18
+    }).addTo(map);
+    </script>
   </body>
 </html>
