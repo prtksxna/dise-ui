@@ -333,6 +333,7 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 .ui-slider-range{
     background: #cd5e00;
+    margin-left: 10px;
 }
 
 .ui-slider-handle{
