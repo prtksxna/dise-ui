@@ -43,7 +43,13 @@ $(function(){
         range: true,
         min: 0,
         max: 30,
-        values: [10,20]
+        values: [10,20],
+        slide: function(e, s){
+            var high = $("#" + $(this).attr("data-high"));
+            var low = $("#" + $(this).attr("data-low"));
+            high.val(s.values[1]);
+            low.val(s.values[0]);
+        }
     });
 
     // Filter

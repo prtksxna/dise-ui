@@ -347,11 +347,24 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
 
 #preset-editor label.range{
     font-weight: 100;
+    margin: 0;
+    width: 300px;
     margin-bottom: 10px;
 }
 
 #preset-editor label.range > strong{
     color: #cd5e00;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+#preset-editor label.range > strong > input{
+    color: #cd5e00;
+    border: none;
+    background: transparent;
+    display: inline;
+    width: 26px;
+    text-align: center;
     font-weight: 100;
     font-size: 22px;
 }
