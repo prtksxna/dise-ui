@@ -73,7 +73,7 @@ button[type="submit"].btn-default{
     text-shadow: 0 1px #000;
 }
 
-#control_toggle{
+#control_toggle_icon{
     transition: all 1s ease;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -81,7 +81,7 @@ button[type="submit"].btn-default{
     -ms-transform: rotate(0deg);
 }
 
-#control_toggle.flip{
+#control_toggle_icon.flip{
     transition: all 1s ease;
 
     -webkit-transform: translateY(3px) rotate(180deg);
