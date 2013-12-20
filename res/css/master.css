@@ -48,7 +48,7 @@ button[type="submit"].btn-default{
 
 #controls{
     transition: all 1s ease;
-    z-index: 10000;
+    z-index: 9999;
     position: absolute;
     background: #343539;
     margin-top: 53px;
