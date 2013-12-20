@@ -32,11 +32,11 @@ $(function(){
     });
 
 
-    // Breadcrumbs coloring and z-index
-    var class_array = ["a", "b", "c", "d", "e"]
-    $("ol.top-breadcrumbs li").each(function(i, e){
-        $(e).addClass(class_array[i]);
-    });
+    renderCrumbs([
+        ["Karnataka", "#"],
+        ["Bangalore", "#"],
+        ["HSR Layout", "#"]
+    ])
 
     // Sliders
     $(".range-slider").slider({
@@ -80,3 +80,23 @@ $(function(){
         ]
     });
 });
+
+
+function renderCrumbs(bs){
+    var ol = $("ol.top-breadcrumbs");
+    ol.html('<li><a class="navbar-brand" href="#">DISE</a></li>');
+
+    for (var i in bs){
+        var b = bs[i];
+        var li = $("<li>");
+        var a = $("<a>").attr("href", b[1]).html(b[0]);
+        ol.append(li.append(a));
+    }
+
+
+    // Coloring and z-index
+    var class_array = ["a", "b", "c", "d", "e"]
+    ol.find("li").each(function(i, e){
+        $(e).addClass(class_array[i]);
+    });
+}
