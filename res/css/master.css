@@ -159,6 +159,8 @@ button[type="submit"].btn-default{
 .btn-group label{
     background: #F18352;
     border-color: #cd5e00;
+    padding: 8px;
+    font-size: 13px;
 }
 
 .btn-group label:hover{
