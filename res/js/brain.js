@@ -59,6 +59,7 @@ $(function(){
 
     $("#filter-select").select2({
         dropdownCssClass: "bigdrop",
+        allowClear: true,
         data:
         [
             {
