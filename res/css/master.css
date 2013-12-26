@@ -493,3 +493,15 @@ ol.top-breadcrumbs li.e:after{border-left-color: #666;}
     font-weight: 200;
     line-height: 48px;
 }
+
+
+#popup h5.question{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#popup p.answer{
+    color: #fff;
+    font-weight: 200;
+    margin: 0;
+}
